@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="296ab2e6-b3ac-4717-97e9-7f90bf5fc892" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wh/everything/config/EverythingPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wh/everything/core/common/FileConvertThing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wh/everything/core/dao/FileIndexDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wh/everything/core/dao/impl/FileIndexDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wh/everything/core/index/FileScan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wh/everything/core/index/impl/FileScanImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wh/everything/core/interceptor/FileInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wh/everything/core/interceptor/impl/FileIndexInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wh/everything/core/interceptor/impl/FilePrintInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wh/everything/core/search/FileSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wh/everything/core/search/impl/FileSearchImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c20f7a6-eeaa-476e-a34a-6c29134931b3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6df0b43d-e39e-4971-a6de-8b4c6a39cbaf.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b92926ee-8bb2-4022-bfc4-d7825a36ca41.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c95a2130-b8de-4ff6-a81c-24c8729b3fec.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wh/everything/core/dao/DataSourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wh/everything/core/dao/DataSourceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wh/everything/core/model/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wh/everything/core/model/Condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wh/everything/core/model/FileType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wh/everything/core/model/FileType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/myEverything.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/myEverything.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wh/everything/core/dao/DataSourceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wh/everything/core/dao/DataSourceFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wh/everything/core/model/Condition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wh/everything/core/model/Condition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wh/everything/core/model/FileType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wh/everything/core/model/FileType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/myEverything.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/myEverything.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,8 +49,8 @@
       <file leaf-file-name="FileScanImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/everything/core/index/impl/FileScanImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="55" column="47" lean-forward="true" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+            <state relative-caret-position="465">
+              <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1707#1708#0" expanded="true" />
@@ -89,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/everything/core/common/FileConvertThing.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="648">
-              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -211,7 +186,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="217" />
     <option name="y" value="87" />
     <option name="width" value="1588" />
@@ -560,12 +535,12 @@
       <workItem from="1564876790361" duration="4774000" />
       <workItem from="1564881652775" duration="7105000" />
       <workItem from="1565054063173" duration="40000" />
-      <workItem from="1565135686189" duration="7865000" />
+      <workItem from="1565135686189" duration="8202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34330000" />
+    <option name="totallyTimeSpent" value="34667000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -577,7 +552,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="217" y="87" width="1588" height="914" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298153" />
@@ -590,10 +566,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298153" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32666665" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32666665" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3878628" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49934125" visible="true" weight="0.18976545" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49934125" visible="true" weight="0.23298429" />
       <window_info anchor="right" id="Database" order="3" weight="0.32942432" />
       <window_info id="Structure" order="1" sideWeight="0.50065875" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -982,7 +958,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/everything/core/common/FileConvertThing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1023,8 +999,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/everything/core/index/impl/FileScanImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="55" column="47" lean-forward="true" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+        <state relative-caret-position="465">
+          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1707#1708#0" expanded="true" />
