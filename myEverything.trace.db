@@ -1,0 +1,20 @@
+2019-08-04 08:35:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE DATABASE[*] IF NOT EXISTS MYEVERYTHING;CREATE TABLE IF NOT EXISTS FILE_INDEX(NAME VARCHAR(256) NOT NULL COMMENT '文件名称',PATH VARCHAR(2048) NOT NULL COMMENT '文件路径',DEPTH INT NOT NULL COMMENT '文件路径深度',FILE_TYPE VARCHAR (32) NOT NULL COMMENT '文件类型'); "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, SYNONYM, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
+create database if not exists myEverything;create table if not exists file_index(name varchar(256) not null comment '文件名称',path varchar(2048) not null comment '文件路径',depth int not null comment '文件路径深度',file_type varchar (32) not null comment '文件类型'); [42001-197]
+2019-08-04 11:04:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Column "DEPTHASC" not found; SQL statement:
+select name,path,depth,file_type from file_index where  name like '%简历%'  order by depthasc limit 1 offset 0  [42122-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:150)
+	at org.h2.command.dml.Select.prepare(Select.java:858)
+	at org.h2.command.Parser.prepareCommand(Parser.java:283)
+	at org.h2.engine.Session.prepareLocal(Session.java:611)
+	at org.h2.engine.Session.prepareCommand(Session.java:549)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1247)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:304)
+	at com.alibaba.druid.pool.DruidPooledConnection.prepareStatement(DruidPooledConnection.java:350)
+	at com.wh.everything.core.dao.impl.FileIndexDaoImpl.search(FileIndexDaoImpl.java:106)
+	at com.wh.everything.core.dao.impl.FileIndexDaoImpl.main(FileIndexDaoImpl.java:163)

@@ -32,4 +32,13 @@ public enum FileType {
         return FileType.OTHER;
     }
 
+    public static FileType lookupByName(String name){
+        for (FileType fileType : FileType.values()){
+            if (fileType.name().contains(name)){
+                return fileType;
+            }
+        }
+        return FileType.OTHER;
+    }
+
 }
